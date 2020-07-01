@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:gravity="center"
+    android:paddingTop="30dp"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_height="60sp"
+        android:layout_width="60sp"
+        android:id="@+id/imageView1"
+        android:src="@drawable/ic_user"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:text="Name"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/imageView1"
+        android:singleLine="true"
+        android:layout_marginTop="7sp"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/imageView1"
+        android:layout_marginLeft="15sp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_toEndOf="@+id/imageView1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Xyz"
+            android:singleLine="true"
+            android:layout_marginTop="5sp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/userName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="8585858585"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:id="@+id/mobile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:text="xyz@gmaul.com"
+            android:singleLine="true"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/email" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

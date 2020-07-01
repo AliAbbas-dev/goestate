@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_homenew"
+        android:title="@string/menu_home" />
+
+
+ <item
+        android:id="@+id/property"
+        android:icon="@drawable/ic_property"
+        android:title="My Add Property" />
+
+
+
+    <item
+        android:id="@+id/favourite"
+        android:visible="false"
+        android:icon="@drawable/ic_love"
+        android:title="@string/menu_favourite" />
+
+    <item
+         android:visible="false"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/menu_chat" />
+
+
+
+    <item
+        android:id="@+id/user"
+        android:visible="false"
+        android:icon="@drawable/ic_user"
+         android:title="@string/menu_profile" />
+
+
+
+
+  <item
+        android:id="@+id/MyProperty"
+        android:icon="@drawable/ic_property"
+        android:title="My Contacted Properties" />
+
+   <item
+        android:id="@+id/recentsearches"
+        android:icon="@drawable/ic_search"
+        android:title="Recent Searched" />
+
+     <item
+        android:id="@+id/support"
+        android:icon="@drawable/ic_user"
+        android:title="Support" />
+
+ <item
+        android:id="@+id/contactus"
+        android:icon="@drawable/ic_phone"
+        android:title="Contact Us" />
+
+
+
+
+ <item
+        android:id="@+id/Privacypolicy"
+        android:icon="@drawable/ic_privacy"
+        android:title="Privacy policy" />
+
+
+ <item
+        android:id="@+id/AboutUs"
+        android:icon="@drawable/ic_help"
+        android:title="About Us" />
+
+
+
+
+ <item
+        android:id="@+id/RateApp"
+        android:icon="@drawable/ic_star"
+        android:title="Rate App" />
+
+
+    <item
+        android:id="@+id/ShareApp"
+        android:icon="@drawable/ic_share"
+        android:title="Share App" />
+
+ <item
+        android:id="@+id/chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Feedback" />
+
+ <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+
+
+</menu>
